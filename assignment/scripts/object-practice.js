@@ -43,7 +43,7 @@ console.log( me.favThreeFoods[2]);
   - Console.log your updated shoe count.
 */
 console.log(me.shoeCount);
-me.shoeCount = me.shoeCount + 1
+me.shoeCount = me.shoeCount + 1,
 console.log(me.shoeCount);
 
 
@@ -53,3 +53,5 @@ console.log(me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'Blue',
+console.log(me);
