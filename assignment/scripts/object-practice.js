@@ -14,7 +14,7 @@ const me = {
   lastName: 'Noble',
   hasSiblings: true,
   shoeCount: 6,
-  //let favThreeFoods = ['mac n cheese', 'chocolate', 'salmon']
+  favThreeFoods: ['mac n cheese', 'chocolate', 'salmon']
 };
 console.log('A little about me:', me);
 
@@ -24,14 +24,15 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
-
+let fullName = [ me.firstName + me.lastName]
+console.log(fullName);
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
-
+console.log( me.favThreeFoods[1]);
 
 
 /* 4. Change a property of an existing object.
